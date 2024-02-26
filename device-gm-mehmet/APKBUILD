@@ -1,0 +1,30 @@
+# Reference: <https://postmarketos.org/devicepkg>
+pkgname=device-gm-mehmet
+pkgdesc="General Mobile E-tab 4"
+pkgver=0.1
+pkgrel=0
+url="https://postmarketos.org"
+license="MIT"
+arch="armv7"
+options="!check !archcheck"
+depends="
+	linux-postmarketos-exynos4
+	mkbootimg
+	postmarketos-base
+"
+makedepends="devicepkg-dev"
+source="
+	deviceinfo
+"
+
+build() {
+	devicepkg_build $startdir $pkgname
+}
+
+package() {
+	devicepkg_package $startdir $pkgname
+}
+
+sha512sums="
+b904483f0ebabe32040b3519a651a6d9b949bdc1c788bbb4d334c26532f18abb2249d9cdf52fa6c22c74ba374c39790295014e7bd4939b3d5f587818a82aadd2  deviceinfo
+"
