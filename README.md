@@ -4,6 +4,6 @@
 [downsteam kernel source](https://github.com/underscoremone/android_kernel_samsung_gtexswifi)
 
 ## device spec
-- Quad-core 1.30GHz Spreadtrum SC7730SW
+- Quad-core 1.30GHz Spreadtrum SC7730SW (?)
 - Mali-400 MP
 - ram 1.5 gb
