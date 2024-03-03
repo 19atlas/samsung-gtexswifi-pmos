@@ -47,6 +47,7 @@ source="
 	linux3.4-ARM-8933-1-replace-Sun-Solaris-style-flag-on-section.patch
 	linux3.4-fix-piggy.gzip.S.patch
 	fix_recordmcount.patch
+	fix-dts.patch
 "
 builddir="$srcdir/$_repository-$_commit"
 _outdir="out"
