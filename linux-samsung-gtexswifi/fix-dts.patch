@@ -1,0 +1,65 @@
+diff --git a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev00.dts b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev00.dts
+index 06c4f96f..195cc3f4 100755
+--- a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev00.dts
++++ b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev00.dts
+@@ -28,7 +28,7 @@
+ 
+ / {
+ 	model = "Spreadtrum SP7730G board";
+-		sprd,sc-id = <8830 0 0x20000>;
++		qcom,msm-id = <8830 0 0x20000>;
+ 	chosen {
+ 		bootargs = "loglevel=7 init=/init root=/dev/ram0 rw";
+ 		linux,initrd-start = <0x85500000>;
+diff --git a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev02.dts b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev02.dts
+index 0fcd76c2..49b638ca 100755
+--- a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev02.dts
++++ b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev02.dts
+@@ -28,7 +28,7 @@
+ 
+ / {
+ 	model = "Spreadtrum SP7730G board";
+-		sprd,sc-id = <8830 2 0x20000>;
++		qcom,msm-id = <8830 2 0x20000>;
+ 	chosen {
+ 		bootargs = "loglevel=7 init=/init root=/dev/ram0 rw";
+ 		linux,initrd-start = <0x85500000>;
+diff --git a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev03.dts b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev03.dts
+index 53ad148f..5505c5d4 100755
+--- a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev03.dts
++++ b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev03.dts
+@@ -28,7 +28,7 @@
+ 
+ / {
+ 	model = "Spreadtrum SP7730G board";
+-		sprd,sc-id = <8830 3 0x20000>;
++		qcom,msm-id = <8830 3 0x20000>;
+ 	chosen {
+ 		bootargs = "loglevel=7 init=/init root=/dev/ram0 rw";
+ 		linux,initrd-start = <0x85500000>;
+diff --git a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev04.dts b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev04.dts
+index 4713c41d..78359e33 100755
+--- a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev04.dts
++++ b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev04.dts
+@@ -28,7 +28,7 @@
+ 
+ / {
+ 	model = "Spreadtrum SP7730G board";
+-		sprd,sc-id = <8830 4 0x20000>;
++		qcom,msm-id = <8830 4 0x20000>;
+ 	chosen {
+ 		bootargs = "loglevel=7 init=/init root=/dev/ram0 rw";
+ 		linux,initrd-start = <0x85500000>;
+diff --git a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev05.dts b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev05.dts
+index dda883dc..c310b769 100755
+--- a/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev05.dts
++++ b/arch/arm/boot/dts/sprd-scx35_gtexswifi_rev05.dts
+@@ -28,7 +28,7 @@
+ 
+ / {
+ 	model = "Spreadtrum SP7730G board";
+-		sprd,sc-id = <8830 5 0x20000>;
++		qcom,msm-id = <8830 5 0x20000>;
+ 	chosen {
+ 		bootargs = "loglevel=7 init=/init root=/dev/ram0 rw";
+ 		linux,initrd-start = <0x85500000>;
