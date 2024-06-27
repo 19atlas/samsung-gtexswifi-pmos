@@ -1,5 +1,6 @@
 # samsung gtexswifi (T280) postmarketos
 <h4>merge request https://gitlab.com/postmarketOS/pmaports/-/merge_requests/5289 </h4>
+
 ## pmOS gtexswifi files
 - `device-samsung-gtexswifi` and `linux-samsung-gtexswifi` are postmarketos files
 - `config-samsung-gtexswifi.armv7` new pmos device defconfig
