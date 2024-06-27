@@ -11,11 +11,10 @@ depends="
 	linux-samsung-gtexswifi
 	mkbootimg
 	postmarketos-base
+	msm-fb-refresher
 "
 makedepends="devicepkg-dev"
-source="
-	deviceinfo
-"
+source="deviceinfo"
 
 build() {
 	devicepkg_build $startdir $pkgname
@@ -26,5 +25,5 @@ package() {
 }
 
 sha512sums="
-7bfeea54c4da67165cc778d7d8dc2a72a05fe150fcffe5ae428c7e52fd49fc4b254d7113d382ce457a5e7dd0cb3a56190244abec53ab89f600105288bb351f55  deviceinfo
+795c655ecfed8c6eb08a635be8bfbcff2ba47e04468a14ab9271ee97560f4bbaa84d0e73cb9e3e7b149c9690bb0ea1681d6dca4bb88c2b86fef7f222534b6535  deviceinfo
 "

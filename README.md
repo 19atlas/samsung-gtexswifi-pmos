@@ -1,12 +1,15 @@
-# samsung gtexswifi(T280) postmarketos
+# samsung gtexswifi (T280) postmarketos
 
-## config files for gtexswifi
-[downsteam kernel source](https://github.com/underscoremone/android_kernel_samsung_gtexswifi)
-## using gcc vesion is 4
-you can change it later
+## pmOS gtexswifi files
+- `device-samsung-gtexswifi` and `linux-samsung-gtexswifi` are postmarketos files
+- `config-samsung-gtexswifi.armv7` new pmos device defconfig
+- `gtexswifi-dt_defconfig` is ubuntu touch like device defconfig
+- `OLD-config-samsung-gtexswifi.armv7` [old kernel for](https://github.com/underscoremone/android_kernel_samsung_gtexswifi)
+- [downsteam kernel source](https://github.com/bfourk/android_kernel_samsung_gtexswifi)
+
+
 ## device spec
-- Quad-core 1.30GHz Spreadtrum SC7730SW (?)
+- Quad-core 1.30GHz Spreadtrum SC7730SW (?) sc8830
 - Mali-400 MP
 - ram 1.5 G
 - storage 8 G
-- dts name: `sprd-scx35_gtexswifi_rev05`
