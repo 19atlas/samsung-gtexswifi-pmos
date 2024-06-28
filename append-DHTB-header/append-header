@@ -1,0 +1,3 @@
+cat gtexswifi-boot-header $1 > $1.tmpout
+rm $1
+mv $1.tmpout $1
