@@ -4,10 +4,9 @@
 - [downsteam kernel source](https://github.com/bfourk/android_kernel_samsung_gtexswifi)
 
 ## pmOS gtexswifi files
-- `device-samsung-gtexswifi` and `linux-samsung-gtexswifi` are postmarketos files
-- `config-samsung-gtexswifi.armv7` new pmos device defconfig
+- `wifi/property` wifi property bins
+- `wifi` wifi modules, compiled* from compiled kernel. `stock` from stock rom
 - `gtexswifi-dt_defconfig` is ubuntu touch like device defconfig
-- `OLD-config-samsung-gtexswifi.armv7` [old kernel for](https://github.com/underscoremone/android_kernel_samsung_gtexswifi)
 - `append-DHTB-header/append-header` bash script that appends DHTB to boot.img
 - `append-DHTB-header/gtexswifi-boot-header` DHTB source
 
