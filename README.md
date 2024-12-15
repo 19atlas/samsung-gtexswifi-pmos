@@ -1,5 +1,5 @@
 # samsung gtexswifi (T280) postmarketos
-<h4>[merge request](https://gitlab.com/postmarketOS/pmaports/-/merge_requests/5289) </h4> <br>
+<h4>[merge request https://gitlab.postmarketos.org/postmarketOS/pmaports/-/merge_requests/5289) </h4> <br>
 <h4>[pmOS wiki](https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Tab_A_7.0_(2016)_(samsung-gtexswifi))</h4>
 - [downsteam kernel source](https://github.com/bfourk/android_kernel_samsung_gtexswifi)
 
